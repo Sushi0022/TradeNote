@@ -191,6 +191,8 @@ function getLatestVersion() {
                             <span class="txt-small">v{{ version }}<i v-if="latestVersion != version"
                                     class="ps-1 uil uil-info-circle" data-bs-toggle="tooltip" data-bs-html="true"
                                     v-bind:data-bs-title="'New version available<br>v' + latestVersion"></i></span>
+                                    <br>
+                                    <span class="txt-small">Made By Sushi &amp; Bankjob</span>
                         </li>
                     </ul>
                 </div>
