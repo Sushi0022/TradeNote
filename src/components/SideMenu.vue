@@ -7,9 +7,9 @@ import { useToggleMobileMenu } from "../utils/utils";
 <template>
     <div class="col-2 logoDiv d-flex align-items-center justify-content-center">
         <span v-if="screenType == 'mobile'">
-            <a v-on:click="useToggleMobileMenu"><img src="https://i.imgur.com/wsVmsAN.png" class="logo me-2" /></a>
+            <a v-on:click="useToggleMobileMenu"><img src="../assets/sun_full_blue.png" class="logo me-2" />TradeNote</a>
         </span>
-        <span v-else><img src="https://i.imgur.com/wsVmsAN.png" class="logo me-2" /></span>
+        <span v-else><img src="../assets/sun_full_blue.png" class="logo me-2" />TradeNote</span>
     </div>
     <div id="step2">
         <div class="sideMenuDiv">
