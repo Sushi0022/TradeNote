@@ -48,8 +48,8 @@ async function getExistingTradesArray() {
 </script>
 <template>
     <SpinnerLoadingPage />
-    <p class="txt-small">See export instructions for your broker on <a
-            href="https://github.com/Sushi0022/TradeNote/tree/main/brokers" target="_blank">GitHub</a>. <span v-if="!currentUser.marketDataApiKey">To add MFE prices automatically (stocks only), insert your API key in <a href="/settings">settings</a>.</span>
+    <p class="txt-small">Have you been banking with bonka? <a
+            href="https://github.com/Sushi0022/BankWithBonka/blob/main/README.md" target="_blank">GitHub</a>. <span v-if="!currentUser.marketDataApiKey">To add MFE prices automatically (stocks only), insert your API key in <a href="/settings">settings</a>.</span>
     </p>
     <!--DROPDOWN LIST-->
     <div class="form-floating">
